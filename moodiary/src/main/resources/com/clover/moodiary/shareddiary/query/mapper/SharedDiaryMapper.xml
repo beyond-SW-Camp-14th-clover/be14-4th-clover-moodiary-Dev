@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.clover.moodiary.shareddiary.query.mapper.SharedDiaryMapper">
+
+    <select id="findDiaryByRoomId" resultType="com.clover.moodiary.shareddiary.query.dto.SharedDiaryResponse">
+        SELECT
+               sd.id,
+               sd.title,
+               sd.content,
+               sd.created_at,
+               sd.is_deleted,
+               sd.fixed_state,
+               sd.user_id,
+               u.name AS user_name
+          FROM shared_diary sd
+          JOIN user u ON sd.user_id = u.id
+         WHERE sd.shared_diary_room_id = #{roomId}
+           AND sd.is_deleted = false
+         ORDER BY sd.created_at DESC
+    </select>
+
+    <select id="findDiaryById" resultType="com.clover.moodiary.shareddiary.query.dto.SharedDiaryDetailResponse">
+        SELECT
+               id,
+               title,
+               content,
+               DATE_FORMAT(created_at, '%Y-%m-%d %H:%i:%s') AS createdAt,
+               is_deleted AS isDeleted,
+               fixed_state AS fixedState,
+               user_id AS userId,
+               style_layer AS styleLayer,
+               shared_diary_room_id AS sharedDiaryRoomId
+          FROM shared_diary
+         WHERE id = #{diaryId}
+    </select>
+</mapper>
