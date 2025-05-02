@@ -1,0 +1,200 @@
+/* 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------
+   폰트 등록
+--------------------------------- */
+@font-face {
+    font-family: 'Akshar';
+    src: url('../fonts/Akshar-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akshar';
+    src: url('../fonts/Akshar-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akshar';
+    src: url('../fonts/Akshar-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OMYuPretty';
+    src: url('../fonts/omyu-pretty.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HandwritingFont';
+    src: url('../fonts/IM_Hyemin-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -------------------------------
+   기본 설정
+--------------------------------- */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-omyu);
+    background-color: var(--color-beige);
+    color: var(--color-brown);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------
+   색상, 폰트 변수
+--------------------------------- */
+:root {
+    --color-brown: #6B3E26;
+    --color-beige: #D6B98C;
+    --color-green: #3C8D40;
+    --color-green-dark: #337438;
+
+    --font-omyu: 'OMYuPretty', sans-serif;
+    --font-hand: 'HandwritingFont', sans-serif;
+    --font-akshar: 'Akshar', sans-serif;
+}
+
+/* -------------------------------
+   링크
+--------------------------------- */
+a {
+    color: var(--color-green);
+    text-decoration: none;
+}
+
+a.underline {
+    text-decoration: underline dotted;
+}
+
+/* -------------------------------
+   버튼 스타일
+--------------------------------- */
+button,
+a.button {
+    all: unset;
+    display: inline-block;
+    padding: 5px 35px;
+    font-size: 18px;
+    font-family: var(--font-pixel);
+    font-weight: bold;
+    color: white;
+    background-color: var(--color-green);
+    border: 2px solid var(--color-brown);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: -1px -1px 0 1px var(--color-brown);
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+a.button:hover {
+    transform: scale(1.05);
+}
+
+button:active,
+a.button:active {
+    transform: scale(0.97);
+}
+
+/* 버튼 타입별 색상 */
+.submit-button {
+    background-color: var(--color-green);
+}
+
+.submit-button:hover {
+    background-color: var(--color-green-dark);
+}
+
+.cancel-button {
+    background-color: #a9a9a9;
+}
+
+.cancel-button:hover {
+    background-color: #898989;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover {
+    background-color: crimson;
+}
+
+/* -------------------------------
+   레이아웃 구조
+--------------------------------- */
+/* app 전체 영역 */
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 메인 콘텐츠 영역 (헤더 제외) */
+main,
+main.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    /* header 높이 고려 */
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+/* 페이지 내부 wrapper */
+.page-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* -------------------------------
+   기타
+--------------------------------- */
+/* 작은 글씨 */
+.small-p {
+    font-size: 0.8rem;
+}
+
+/* MP 음악플레이어 기본 숨김 */
+.music-player {
+    display: none;
+}
+
+.logo a {
+    width: 250px;
+    color: var(--color-beige);
+    font-family: var(--font-pixel);
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #A17C59;
+}
