@@ -26,9 +26,6 @@
 #### [🛜 CI/CD 프로젝트 아키텍처](#-Server) <br>
 #### [🚩 젠킨스 파이프라인 파일 스크립트 코드](#-단위-테스트) <br>
 #### [📱 CI/CD 테스트](#-API-테스트) <br>
-#### [📑 API 명세서](#-API-명세서) <br>
-#### [🔜 트러블 슈팅](#-트러블-슈팅) <br>
-#### [🔜 향후 확장 계획](#-향후-확장-계획) <br>
 #### [🍪 개인 회고록](#-개인-회고록) <br>
 
 <br>
@@ -98,9 +95,8 @@
 
 ## 🙆‍♀️ 요구사항 명세서
 
-🔗 [요구사항 명세서 바로가기](https://docs.google.com/spreadsheets/d/18n2OJHiRjAZ0b6NBGHlsgf-LoMMUqmXSKnpa_4X8NSc/edit?usp=sharing)
+🔗 [요구사항 명세서 바로가기](https://docs.google.com/spreadsheets/d/18n2OJHiRjAZ0b6NBGHlsgf-LoMMUqmXSKnpa_4X8NSc/edit?gid=0#gid=0)
 
-<img src="https://github.com/your-repo/images/requirements.png" width="900"/>
 
 ---
 
@@ -108,30 +104,22 @@
 
 ### 1. Domain Event Storming
 
-<img src="https://github.com/your-repo/images/event_storming1.png" />
-<img src="https://github.com/your-repo/images/event_storming2.png" />
+<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/DDD1.png" width="900" />
+<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/DDD2.png" width="900" />
+<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/DDD3.png" width="900" />
 
-<details>
-  <summary>설계 과정</summary>
-  
-- 사용자 도메인: 로그인, 회원가입, 정보수정, 비밀번호 재설정
-- 일기 도메인: 감정/텍스트 기반 일기 CRUD
-- 감정 도메인: AI 분석 결과 바탕 감정 상태 추정
-- 펫 도메인: 감정 기반 펫 상호작용 및 추천 메시지 생성
-
-</details>
 
 ---
 
 ## 🗃️ DB 모델링
 
-![DB 모델링](https://github.com/your-repo/images/db_model.png)
+<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/MooDi_ary.png" width="900" />
 
 ---
 
 ## 🪄 Figma
 
-🔗 [Figma 디자인 링크](https://www.figma.com/file/your-link)
+🔗 [Figma 디자인 링크](https://miro.com/app/board/uXjVIBMEE4Y=/)
 
 ---
 
