@@ -119,7 +119,9 @@
 
 ## 🪄 Figma
 
-🔗 [Figma 디자인 링크](https://miro.com/app/board/uXjVIBMEE4Y=/)
+🔗 [Figma 디자인]
+
+<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/Figma.png" width="900" />
 
 ---
 
