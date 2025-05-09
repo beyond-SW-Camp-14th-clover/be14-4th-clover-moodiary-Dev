@@ -113,7 +113,7 @@
 
 ## 🗃️ DB 모델링
 
-<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/MooDi_ary.png" width="900" />
+<img src="https://github.com/user-attachments/assets/178fc0f0-47e7-4347-b687-b8cf4c596820" width="900" />
 
 ---
 
