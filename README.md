@@ -10,7 +10,7 @@
 
 |<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/page1.jpeg" width="100" height="100"> |<img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/page2.jpg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/page3.jpg" width="100" height="100">|<img src="https://github.com/user-attachments/assets/4ba8ac89-69c0-4384-a2fb-a1f98e0e7a6d" width="100" height="100"> | <img src="https://raw.githubusercontent.com/beyond-SW-Camp-14th-clover/be14-4th-clover-moodiary-Dev/main/image/page4.jpg" width="100" height="100"> |
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: |
-| [고성연](https://github.com/Gombo2) | [강수지](https://github.com/yehang218) | [이청민](https://github.com/Bluesky3125) | [김성민](https://github.com/swjang7269) | [고윤석](https://github.com/minsun24) |
+| [고성연](https://github.com/Gombo2) | [강수지](https://github.com/yehang218) | [이청민](https://github.com/Bluesky3125) | [김성민](https://github.com/SungMin-hub) | [고윤석](https://github.com/minsun24) |
 
 <br>
 
